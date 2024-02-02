@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Sayajin;
+    src: url(../fonts/Saiyan-Sans.ttf);
+}
+body{
+    background-color: #ffa540;
+}
+.cabecalho{
+    background-image: radial-gradient(#00BFFF 50%, #ffffff);
+}
