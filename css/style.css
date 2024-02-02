@@ -50,7 +50,7 @@
 .div{
     width: 100%;
     background-image: radial-gradient(#00BFFF 50%, #ffffff);
-    height: 200px;
+    height: 400px;
     margin-top: 2px;
     border: 2px solid #ffa540;
     box-sizing: border-box;
@@ -59,11 +59,30 @@
 .dbz{
     width: 100%;
     background-image: radial-gradient(#00BFFF 50%, #ffffff);
-    height: 600px;
+    height: 1050px;
     margin-top: 2px;
     border: 2px solid #ffa540;
     box-sizing: border-box;
     padding: 20px;
+}
+.titulo{
+    font-family: Sayajin;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding: 5px;
+    background-image: linear-gradient(rgb(255, 0, 0) 40%, #000000);
+    background-clip: text;
+    color: transparent;
+}
+.subtitulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    box-sizing: border-box;
+}
+p{
+    text-align: justify;
+    width: 800px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 img{
     width: 200px;
