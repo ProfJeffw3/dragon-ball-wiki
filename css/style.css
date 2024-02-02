@@ -2,9 +2,48 @@
     font-family: Sayajin;
     src: url(../fonts/Saiyan-Sans.ttf);
 }
-body{
-    background-color: #ffa540;
-}
 .cabecalho{
     background-image: radial-gradient(#00BFFF 50%, #ffffff);
+    width: 100%;
+    height: 605px;
+    border: 2px solid #ffa540;
+    box-sizing: border-box;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin: 50px;
+    box-sizing: border-box;
+    position: relative;
+}
+.guerreiros{
+    width: 800px;
+}
+.TextoCabecalho{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    margin-left: 1100px;
+    margin-top: -180px;
+    font-size: 25px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    height: 90px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px #000000;
+    text-shadow: 2px 2px 2px #daa520;
+    text-align: center;
+    color: #1E90FF;
+    transition: 1s;
+}
+.TextoCabecalho:hover{
+    background-color: #e6d710;
+    color: #ffffff;
+    text-shadow:2px 2px 2px #1E90FF;
+    transition: 1s;
+    margin-left: 900px;
 }
