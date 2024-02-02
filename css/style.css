@@ -47,3 +47,32 @@
     transition: 1s;
     margin-left: 900px;
 }
+.div{
+    width: 100%;
+    background-image: radial-gradient(#00BFFF 50%, #ffffff);
+    height: 200px;
+    margin-top: 2px;
+    border: 2px solid #ffa540;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.dbz{
+    width: 100%;
+    background-image: radial-gradient(#00BFFF 50%, #ffffff);
+    height: 600px;
+    margin-top: 2px;
+    border: 2px solid #ffa540;
+    box-sizing: border-box;
+    padding: 20px;
+}
+img{
+    width: 200px;
+}
+.rodape{
+    width: 100%;
+    background-image: radial-gradient(#00BFFF 50%, #ffffff);
+    height: 600px;
+    margin-top: 2px;
+    border: 2px solid #ffa540;
+    box-sizing: border-box;
+}
